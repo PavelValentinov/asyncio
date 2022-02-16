@@ -5,8 +5,8 @@ import smtplib
 from email.message import EmailMessage
 
 DB_NAME = 'contacts.db'
-LOGIN_MAILER = 'osneinfo@gmail.com'
-PASS_MAILER = '-'
+LOGIN_MAILER = 'email'
+PASS_MAILER = 'pass'
 
 async def create_mail(user_info):
     info_user = {}
